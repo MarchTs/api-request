@@ -1,6 +1,6 @@
 {
     "name": "@march_ts/api-request",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "request http and insert log",
     "main": "api-request.js",
     "scripts": {
@@ -12,7 +12,7 @@
     "author": "Thanapat Saisoontornwattana",
     "license": "ISC",
     "dependencies": {
-        "@march_ts/log-manager": "^1.0.2",
+        "@march_ts/log-manager": "^1.0.4",
         "@march_ts/http-option": "^1.0.1",
         "@march_ts/http-request": "^1.0.5"
     }
