@@ -1,6 +1,6 @@
-const httpRequest = require("http-requests");
-const HttpOption = require("http-options");
-const logManager = require("log-manager");
+const httpRequest = require("@march_ts/http-request");
+const HttpOption = require("@march_ts/http-option");
+const logManager = require("@march_ts/log-manager");
 
 module.exports = async (url, httpOption = HttpOption, requestBody) => {
     if (typeof url === "string") {
