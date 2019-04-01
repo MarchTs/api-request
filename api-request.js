@@ -25,7 +25,7 @@ module.exports.info = async (url, httpOption = HttpOption, requestBody) => {
     let result = await httpRequest(url, httpOption, requestBody);
 
     let user_agent = httpOption.option.headers["User-Agent"];
-    logManager.insert3Party(url, requestBody, user_agent, result);
+    logManager.info(url, requestBody, user_agent, result);
 
     if (!result.statusCode) {
         console.log("changeing status code at url:", url.toString());
