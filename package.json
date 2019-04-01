@@ -1,6 +1,6 @@
 {
     "name": "@march_ts/api-request",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "description": "request http and insert log",
     "main": "api-request.js",
     "scripts": {
